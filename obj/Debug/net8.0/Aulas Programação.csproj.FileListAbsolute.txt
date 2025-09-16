@@ -1,0 +1,14 @@
+C:\Users\Kaio\Documents\Desenvolvimento\Aulas Programação\bin\Debug\net8.0\Aulas Programação.exe
+C:\Users\Kaio\Documents\Desenvolvimento\Aulas Programação\bin\Debug\net8.0\Aulas Programação.deps.json
+C:\Users\Kaio\Documents\Desenvolvimento\Aulas Programação\bin\Debug\net8.0\Aulas Programação.runtimeconfig.json
+C:\Users\Kaio\Documents\Desenvolvimento\Aulas Programação\bin\Debug\net8.0\Aulas Programação.dll
+C:\Users\Kaio\Documents\Desenvolvimento\Aulas Programação\bin\Debug\net8.0\Aulas Programação.pdb
+C:\Users\Kaio\Documents\Desenvolvimento\Aulas Programação\obj\Debug\net8.0\Aulas Programação.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kaio\Documents\Desenvolvimento\Aulas Programação\obj\Debug\net8.0\Aulas Programação.AssemblyInfoInputs.cache
+C:\Users\Kaio\Documents\Desenvolvimento\Aulas Programação\obj\Debug\net8.0\Aulas Programação.AssemblyInfo.cs
+C:\Users\Kaio\Documents\Desenvolvimento\Aulas Programação\obj\Debug\net8.0\Aulas Programação.csproj.CoreCompileInputs.cache
+C:\Users\Kaio\Documents\Desenvolvimento\Aulas Programação\obj\Debug\net8.0\Aulas Programação.dll
+C:\Users\Kaio\Documents\Desenvolvimento\Aulas Programação\obj\Debug\net8.0\refint\Aulas Programação.dll
+C:\Users\Kaio\Documents\Desenvolvimento\Aulas Programação\obj\Debug\net8.0\Aulas Programação.pdb
+C:\Users\Kaio\Documents\Desenvolvimento\Aulas Programação\obj\Debug\net8.0\Aulas Programação.genruntimeconfig.cache
+C:\Users\Kaio\Documents\Desenvolvimento\Aulas Programação\obj\Debug\net8.0\ref\Aulas Programação.dll
