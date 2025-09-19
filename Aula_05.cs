@@ -1,39 +1,46 @@
 using System;
+using System.Runtime.InteropServices;
 
 class Aula_05
 {
+
     static void Main(string[] args)
     {
-        /**
-        Para Casa para 16/09: Analisando Notas da Turma
+        int[] notas = new int[6];
+        int soma = 0;
+        Console.WriteLine("Nota do aluno 1: ");
+        notas[0] = int.Parse(Console.ReadLine());
 
-            Você deve escrever um programa que:
-                1.	Crie um vetor para armazenar as notas de 5 alunos.
-                2.	Peça ao usuário que digite cada nota e armazene no vetor.
-                3.	Use um loop (for) para:
-                •	Exibir todas as notas digitadas.
-                •	Calcular a média da turma.
-                4.	Ao final, mostre:
-                •	Todas as notas digitadas.
-                •	A média da turma.
-                •	Quantos alunos ficaram acima da média. Média é acima de 60.
-        */
 
-        int[] notas = new int[5];
+        Console.WriteLine("Nota do aluno 2: ");
+        notas[1] = int.Parse(Console.ReadLine());
 
-        System.Console.WriteLine("Digite as notas de 5 alunos:");
 
-        for (int i = 0; i < 5; i++)
+        Console.WriteLine("Nota do aluno 3: ");
+        notas[2] = int.Parse(Console.ReadLine());
+
+        Console.WriteLine("Nota do aluno 4: ");
+        notas[3] = int.Parse(Console.ReadLine());
+
+
+        Console.WriteLine("Nota do aluno 5: ");
+        notas[4] = int.Parse(Console.ReadLine());
+
+
+        Console.WriteLine("Nota do aluno 6: ");
+        notas[5] = int.Parse(Console.ReadLine());
+
+        System.Console.WriteLine("As notas dos alunos são:");
+
+        for (int i = 0; i < 6; i++)
         {
-            System.Console.Write($"Nota do aluno {i + 1}:");
-            notas[i] = int.Parse(Console.ReadLine());
+            Console.WriteLine(notas[i]);
+            soma = soma + notas[i];
         }
+        Console.WriteLine($"A media da turma é: {soma / 6}");
+        
 
 
-        for (int i = 0; i < 5; i++)
-        {
-            System.Console.WriteLine("Nota do aluno " + (i + 1) + ": " + notas[i]);
-        }
 
     }
 }
