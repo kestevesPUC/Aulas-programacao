@@ -33,6 +33,7 @@ class Aula_14
             Console.WriteLine("5- Pausar");
             Console.WriteLine("6- Sair");
             
+            System.Console.Write("Opição: ");
             int opicao = int.Parse(Console.ReadLine());
             
             switch (opicao)
@@ -117,7 +118,6 @@ class Aula_14
             }
 
 
-            
         }
 
         
@@ -130,13 +130,5 @@ class Aula_14
         System.Console.WriteLine();
         System.Console.WriteLine("Até logo");
         
-        
-        
-        
-
-
-        
-
-
     }
 }
