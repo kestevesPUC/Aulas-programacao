@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+
+    <title>Document</title>
+
+</head>
+
+<body style="background-color:hsl(0 0% 98%);">
+
+    <header class="mb-4 pb-5">
+        <!-- NAVBAR FIXA NO TOPO -->
+        <nav class="navbar bg-body-dark bg-dark fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand text-white" href="#">
+                    <img src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo.svg" alt="Logo" width="30"
+                        height="24" class="d-inline-block align-text-top">
+                    Library
+                </a>
+            </div>
+        </nav>
+    </header>
+
+
+
+    <!-- CONTEÚDO PRINCIPAL -->
+    <main class="container-fluid">
+        <div class="d-flex flex-wrap align-items-center justify-content-between gap-3 mb-4">
+            <div class="ms-3">
+                <h1 class="text-2xl font-bold text-foreground">Dashboard</h1>
+                <p class="text-muted-foreground">Visão geral do sistema AE System</p>
+            </div>
+            <div class="d-flex gap-2">
+                <button class="btn btn-primary"><i class="bi bi-plus-lg me-1"></i>Novo</button>
+                <button class="btn btn-outline-secondary"><i class="bi bi-arrow-repeat me-1"></i>Atualizar</button>
+            </div>
+        </div>
+
+        <!-- Cards de resumo -->
+        <div class="row g-3">
+            <div class="col-12 col-md-6 col-xl-3">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <div class="d-flex align-items-center justify-content-between">
+                            <div>
+                                <div class="text-muted">Vendas</div>
+                                <div class="fs-4 fw-semibold">R$ 12.450</div>
+                            </div>
+                            <i class="bi bi-currency-dollar fs-1 text-primary"></i>
+                        </div>
+                        <small class="text-success"><i class="bi bi-caret-up-fill"></i> +8% vs mês anterior</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-3">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <div class="d-flex align-items-center justify-content-between">
+                            <div>
+                                <div class="text-muted">Novos Usuários</div>
+                                <div class="fs-4 fw-semibold">326</div>
+                            </div>
+                            <i class="bi bi-people fs-1 text-info"></i>
+                        </div>
+                        <small class="text-muted">Últimos 30 dias</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-3">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <div class="d-flex align-items-center justify-content-between">
+                            <div>
+                                <div class="text-muted">Tickets Abertos</div>
+                                <div class="fs-4 fw-semibold">18</div>
+                            </div>
+                            <i class="bi bi-life-preserver fs-1 text-warning"></i>
+                        </div>
+                        <small class="text-danger"><i class="bi bi-caret-down-fill"></i> -2% satisfação</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-3">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <div class="d-flex align-items-center justify-content-between">
+                            <div>
+                                <div class="text-muted">Conversão</div>
+                                <div class="fs-4 fw-semibold">3,7%</div>
+                            </div>
+                            <i class="bi bi-graph-up-arrow fs-1 text-success"></i>
+                        </div>
+                        <small class="text-muted">Semana atual</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tabela de exemplo -->
+        <div class="card mt-4 shadow-sm">
+            <div class="card-header d-flex justify-content-between align-items-center">
+                <span class="fw-semibold">Últimas transações</span>
+                <div class="btn-group btn-group-sm">
+                    <button class="btn btn-outline-secondary">Hoje</button>
+                    <button class="btn btn-outline-secondary">Semana</button>
+                    <button class="btn btn-outline-secondary">Mês</button>
+                </div>
+            </div>
+            <div class="table-responsive">
+                <table class="table table-hover align-middle mb-0">
+                    <thead class="table-light">
+                        <tr>
+                            <th>#</th>
+                            <th>Cliente</th>
+                            <th>Produto</th>
+                            <th>Status</th>
+                            <th>Valor</th>
+                            <th>Data</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1023</td>
+                            <td>Maria Silva</td>
+                            <td>Plano Pro</td>
+                            <td><span class="badge text-bg-success">Pago</span></td>
+                            <td>R$ 299,00</td>
+                            <td>15/01/2026</td>
+                        </tr>
+                        <tr>
+                            <td>1022</td>
+                            <td>João Santos</td>
+                            <td>Add-on Relatórios</td>
+                            <td><span class="badge text-bg-warning">Pendente</span></td>
+                            <td>R$ 59,00</td>
+                            <td>15/01/2026</td>
+                        </tr>
+                        <tr>
+                            <td>1021</td>
+                            <td>Ana Souza</td>
+                            <td>Plano Starter</td>
+                            <td><span class="badge text-bg-danger">Falhou</span></td>
+                            <td>R$ 49,00</td>
+                            <td>14/01/2026</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Rodapé simples -->
+        <footer class="pt-4 pb-2 text-center text-muted small">
+            <hr />
+            <div>© 2026 MinhaApp — Construído com Bootstrap 5.3.8</div>
+        </footer>
+    </main>
+
+    <!-- Bootstrap JS + Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+
+</body>
+
+</html>
